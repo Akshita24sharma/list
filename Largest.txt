@@ -1,0 +1,7 @@
+list1 =[11,1,3,5,7]
+larger = list1[0]
+for i in list1:
+    if i > larger:
+        larger=i
+        
+print(larger)

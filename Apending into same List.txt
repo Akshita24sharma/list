@@ -1,0 +1,11 @@
+l1 = list(range(1,41))
+
+for i in range(len(l1)):
+    if l1[i]%3==0 and l1[i]%5==0:
+        l1[i] ='How are you?'
+    elif l1[i]%3==0:
+        l1[i] ='Hi'
+    elif l1[i]%5==0:
+        l1[i] ='Hello'
+
+print('l1 : ', l1)

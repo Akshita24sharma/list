@@ -1,0 +1,3 @@
+list1= [(1,"ravi"),(7,"mohit"),(6,"rohit"),(4,"ankit"),(5,"ram"),(3,"sham"),(8,"vicky"),(2,"suresh")]
+list1.sort(key =lambda x: x[1])
+print(list1)

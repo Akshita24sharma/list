@@ -1,0 +1,5 @@
+l1 = [11,12,13,14,11,12]
+l2=[]
+for i in l1:
+    l2.append(str(i))
+print(l2)

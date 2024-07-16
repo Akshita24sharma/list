@@ -1,0 +1,16 @@
+l1 = []
+for i in range(1,31):
+    if i%3 == 0 and i%5 ==0:
+        # print("how are you")
+        l1.append("how are you")
+    elif i%3 ==0:
+        # print("hi")
+        l1.append("hi")
+    elif i%5 ==0:
+        # print("hello")
+        l1.append("hello")
+    else:
+        # print(i)
+        l1.append(i)
+        
+print(l1)

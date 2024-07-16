@@ -1,0 +1,4 @@
+l1=int(input("Enter a number:-"))
+
+result = "Even" if l1%2== 0 else "odd"
+print(result)

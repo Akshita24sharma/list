@@ -1,0 +1,17 @@
+l = [44, 55, 22, 33, 22, 11, 99, 88, 77]
+
+# Initialize the largest and second largest with appropriate initial values
+largest = l[0]
+second_largest= 0
+
+# Iterate through the list once
+for i in l:
+    if i < largest:
+        second_largest = largest
+        largest = i
+    elif i < second_largest and i != largest:
+        second_largest = i
+
+# Print the largest and second largest elements
+print("The largest element is:", largest)
+print("The second largest element is:", second_largest)

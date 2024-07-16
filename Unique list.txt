@@ -1,0 +1,20 @@
+question 1
+----------
+l1 = [11,12,13,14,11,12]
+l2 =[]
+for i in l1:
+    if i not in l2:
+        l2.append(i)
+print(l2)
+
+question 2
+------------
+
+l1 = [11,12,13,14,11,12]
+l2 =[]
+for i in l1:
+    if l1.count(i)==2 and i not in l2:
+        l2.append(i)
+    elif l1.count(i)==1:
+        l2.append(i)
+print(l2)

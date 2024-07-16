@@ -1,0 +1,14 @@
+l1= [11,22,34,4.5,5.5,7.5,"abc","bca","cba"]
+int1= []
+float1=[]
+str1=[]
+for i in l1:
+   if type(i) is int:
+    int1.append(i)
+   elif type(i) is float:
+     float1.append(i)
+   elif type(i) is str:
+       str1.append(i)
+print("Integer list:-",int1)
+print("Float list:-",float1)
+print("string list:-",str1)
